@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="illustration-box-desktop.svg" alt="illustration box" id="illustr-box">
+      <div class="left-container">
+        <img src="bg-pattern-desktop.svg" alt="background pattern" id="bg-pattern">
+        <img src="illustration-woman-online-desktop.svg" alt="illustration woman" id="illustr-woman">
+      </div>
+
+      <div class="right-container">
+        <h1>FAQ</h1>
+        
+        <div class="questions-container">
+
+          <div class="question" id="qst1">
+
+            <div class="qst-title" id="0" onclick="displayText(id)" onmouseover="moveBox()" onmouseout="resetBox()">
+              <h2 class="titleh2">How many team members can I invite?</h2>
+              <img src="icon-arrow-down.svg" alt="arrow down" class="arrow-img">
+            </div>
+
+            <p class="p not-displayed" id="p0">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+          </div>
+
+          <div class="question" id="qst2">
+
+            <div class="qst-title" id="1" onclick="displayText(id)" onmouseover="moveBox()" onmouseout="resetBox()">
+              <h2 class="titleh2">What is the maximum file upload size?</h2>
+              <img src="icon-arrow-down.svg" alt="arrow down" class="arrow-img">
+            </div>
+
+            <p class="p not-displayed" id="p1">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+          
+          <div class="question" id="qst3">
+
+            <div class="qst-title" id="2" onclick="displayText(id)" onmouseover="moveBox()" onmouseout="resetBox()">
+              <h2 class="titleh2">How do I reset my password?</h2>
+              <img src="icon-arrow-down.svg" alt="arrow down" class="arrow-img">
+            </div>
+
+            <p class="p not-displayed" id="p2">Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
+          </div>
+
+          <div class="question" id="qst4">
+
+            <div class="qst-title" id="3" onclick="displayText(id)" onmouseover="moveBox()" onmouseout="resetBox()">
+              <h2 class="titleh2">Can I cancel my subscription?</h2>
+              <img src="icon-arrow-down.svg" alt="arrow down" class="arrow-img">
+            </div>
+
+            <p class="p not-displayed" id="p3">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+
+          <div class="question" id="qst5">
+
+            <div class="qst-title" id="4" onclick="displayText(id)" onmouseover="moveBox()" onmouseout="resetBox()">
+              <h2 class="titleh2">Do you provide additional support?</h2>
+              <img src="icon-arrow-down.svg" alt="arrow down" class="arrow-img">
+            </div>
+
+            <p class="p not-displayed" id="p4">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
